@@ -29,17 +29,7 @@ Note: Running this command will generate 3 files **“classes.pkl”,”words.pk
       python chatgui.py
 
 ```
-**Note: I am including the venv folder, so that we can skip the installation step and directly execute
-the program. To activate venv:**<br/>
-```
 
-      .\venv\Scripts\activate.bat
-    
-       python train_chatbot.py
-
-       python chatgui.py
-
-```
 ## Screenshots Of The Program:
 **Output of train_chatbot.py:**
 
