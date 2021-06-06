@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hello","Hi","FuelBot","Good Morning"],
+         "responses": ["Hi, I am FuelBot nice to meet u", "Hello Welcome To MyPetrolPump, We ensure deliveries of Petrol", "Good Morning valuable customer, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through how to register for the delivery of the fuel","I can Track the delivery of a fuel you have booked","Cancel an booking?","Do you want to Contact Us for further Assistance?"],
+         "context": [""]
+        },
+        {"tag": "day",
+        "patterns": ["What is the day today?", "What is today?" ],
+        "responses": ["Tuesday"],
+        "context": [""]
+               },
+        {"tag": "delivery_date",
+         "patterns": ["When is my fuel arriving", "Delivery date", "My fuel order"],
+         "responses": ["Opening the delivery page for more details"],
+         "context": [""]
+        },
+        {"tag": "fuel_availability",
+         "patterns": ["Is Fuel available today?","Fuel" ],
+         "responses": ["Navigating to Fuel Availability web page"],
+         "context": [""]
+        },
+        {"tag": "search_type_of_fuel",
+         "patterns": ["I want to search fortypes of fuels you supply", "Fuel types"],
+         "responses": ["We Provide Disel,Petrol etc.Check this page for more dtails "],
+         "context": [""]
+        }        
+   ]
+}
